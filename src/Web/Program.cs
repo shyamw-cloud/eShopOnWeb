@@ -1,4 +1,4 @@
-#12
+
 using System.Net.Mime;
 using Ardalis.ListStartupServices;
 using Azure.Identity;
@@ -28,7 +28,7 @@ builder.Logging.AddConsole();
 
 if (builder.Environment.IsDevelopment() || builder.Environment.EnvironmentName == "Docker")
 {
-    // Configure SQL Server (local)
+    // Configure SQL Server (local) et
     Microsoft.eShopWeb.Infrastructure.Dependencies.ConfigureServices(builder.Configuration, builder.Services);
 }
 else

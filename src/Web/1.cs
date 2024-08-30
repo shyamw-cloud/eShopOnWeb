@@ -28,7 +28,7 @@ builder.Logging.AddConsole();
 
 if (builder.Environment.IsDevelopment() || builder.Environment.EnvironmentName == "Docker")
 {
-    // Configure SQL Server (local) et ww
+    // Configure SQL Server (local) et wwfjfggoug
     Microsoft.eShopWeb.Infrastructure.Dependencies.ConfigureServices(builder.Configuration, builder.Services);
 }
 else
